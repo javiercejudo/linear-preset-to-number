@@ -14,9 +14,9 @@ Ensures a linear preset has numbers
 
 ```js
 var Decimal = require('linear-arbitrary-precision')(require('floating-adapter'));
-var presetToDecimal = require('linear-preset-to-number');
+var presetToNumber = require('linear-preset-to-number');
 
-presetToDecimal([
+presetToNumber([
   [new Decimal('0'), new Decimal('1')],
   [new Decimal('32'), new Decimal('33.8')]
 ]);
